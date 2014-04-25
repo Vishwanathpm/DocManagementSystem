@@ -1,0 +1,76 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body
+{
+	line-height: 1.6em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+a
+{
+	color: DarkGreen;
+}
+
+h1
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 25px;
+}
+h6
+{
+        font-family: Sans-serif;
+        font-size:  12px;
+        font-weight:  bold;
+        line-height:  1.1em;
+}
+
+table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 780px;
+	border-collapse: collapse;
+	text-align: left;
+}
+table.th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+tr:nth-child(odd) { 
+background-color:#e1ddcf; 
+} 
+table.td
+{
+	color: #669;
+	padding: 9px 8px 0px 8px;
+}
+table.tbody tr:hover td
+{
+	color: #009;
+}
+table.login
+{
+    font-size: 20px;
+    color:  black;
+    width:  350px;
+    margin:  10px;
+    text-align: center;
+}
+
+table.small{
+    	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 25px;
+	width: 280px;
+	border-collapse: collapse;
+	text-align: left;
+}
